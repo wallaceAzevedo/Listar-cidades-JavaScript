@@ -12,11 +12,11 @@ if(estados.includes("São Paulo")){
     console.log("nâo, são paulo nâo existe");
 }
 
-console.log(estados.includes("join ville"));
-if(estados.includes("join ville")){
-    console.log("sim, join ville existe");
+console.log(estados.includes("joinville"));
+if(estados.includes("joinville")){
+    console.log("sim, joinville existe");
 } else {
-    console.log("nâo, join ville nâo existe ");
+    console.log("nâo, joinville nâo existe "); 
 }
 
 //metodo includes para verificar se o estado existe no array
