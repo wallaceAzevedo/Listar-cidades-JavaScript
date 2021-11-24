@@ -20,6 +20,7 @@ if(estados.includes("join ville")){
 }
 
 //metodo includes para verificar se o estado existe no array
+// link do video https://www.youtube.com/watch?v=hy3tsIrvloU
 let brasil = ["Acre"];
 const isAcreIncluded = brasil.includes("Acre");
 const acreMessage = isAcreIncluded
