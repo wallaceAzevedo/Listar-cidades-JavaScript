@@ -1,5 +1,6 @@
 // array de stados para sabe se eles existem usando o metodo includes e sem precisar usar while e for
 // link da aula https://www.youtube.com/watch?v=mkQaDD9rc28
+// metodo includes sempre retornara true or false
 let estados = [ "Minas","Goias", "São Paulo"];
 
 console.log(estados.includes("São Paulo"));
@@ -27,3 +28,16 @@ const acreMessage = isAcreIncluded
     ? 'Acre está incluido.'
     : 'Acre nâo foi incluido =/'
 console.log(acreMessage);
+
+//link https://attacomsian.com/blog/javascript-array-search
+// A maneira mais simples e rápida de verificar se um item está presente em uma matriz é usando o método Array.indexOf (). Este método pesquisa o array para o item fornecido e retorna seu índice. Se nenhum item for encontrado, ele retorna -1.
+//indexOf() Method
+const fruits = ['maçã', 'pera', 'tomate', 'uva', 'abacaxi', 'abacate'];
+
+console.log(fruits.indexOf('pera')); // 1  (true)
+console.log(fruits.indexOf('abacaxi')); // 4  (true)
+console.log(fruits.indexOf('banana')); // -1 (false)
+
+// verificando se ela existe e a ordem e igual
+console.log(fruits.indexOf('pera', 1)); // 1    (true)
+console.log(fruits.indexOf('pera', 4)); // -1   (false)
